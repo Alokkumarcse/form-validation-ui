@@ -1,2 +1,3 @@
-# Form-Validation-UI
-Html, Css, JavaScript
+# Form-Validation-User interface
+It is mobile and desktop responsive
+build using Html, Css, JavaScript
