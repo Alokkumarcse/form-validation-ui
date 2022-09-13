@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <!-- stylesheet here -->
+    <link rel="stylesheet" href="index.css">
+    <!-- fontawsome resource here -->
+    <script src="https://kit.fontawesome.com/9d34235b2f.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+       
+        <div class="content">
+            <div class="logo">
+                <img src="./images/logo.svg" />
+            </div>
+            <div class="image"> </div>
+            <div class="text">
+                Start for free & get<br/>
+                 attractive offers today
+            </div>
+        </div>
+    
+        <form  id="form">
+
+            <!-- social handles -->
+            <div class="social">
+                <div class="title">Get Started</div>
+                <div class="question">
+                    Already Have an Account? <br/>
+                    <span> Log In</span>
+                </div>
+
+                <div class="btn">
+                    <div class="btn-1">
+                        <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" />
+                        Sign Up
+                    </div>
+                    <div class="btn-2">
+                        <img src="https://img.icons8.com/color/344/facebook-circled.png" />
+                        Log Up
+                    </div>
+                </div>
+
+                <div class="or">Or</div>
+            </div>
+            
+            
+            <!-- User name input -->
+            <div>
+                <label for="username"> User Name</label>
+                <i class="fa-solid fa-user"></i>
+                <input
+                  type="text"
+                  name="username" 
+                  id="username" 
+                  placeholder="Alok Kumar"
+                />
+                <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- user email input -->
+            <div>
+                <label for="email"> Email</label>
+                <i class="fa-regular fa-envelope"></i>
+                <input 
+                  type="email" 
+                  name="email" 
+                  id="email" 
+                  placeholder="abc123@gmail.com"
+                />
+                <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- user password input -->
+            <div>
+                <label for="password"> Password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input 
+                  type="password" 
+                  name="password" 
+                  id="password" 
+                  placeholder="Password"
+                />
+                <i class="fa-solid fa-circle-exclamation failure-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <!-- submit button -->
+            <button type="submit" id="submit"> submit</button>
+        </form>
+    </div> 
+
+    <!-- javascript link here -->
+    <script src ="index.js"></script> 
+</body>
+</html> 
